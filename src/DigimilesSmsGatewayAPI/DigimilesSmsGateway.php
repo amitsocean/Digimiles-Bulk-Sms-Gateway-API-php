@@ -5,9 +5,9 @@
  * Date: 25/8/18
  */
 
-namespace DigiMilesBulkSmsGatewayAPI;
+namespace DigimilesSmsGatewayAPI;
 
-class DigiMilesBulkSmsGateway {
+class DigimilesSmsGateway {
 
     private $username,$password,$message,$sender,$receiver,$url; //Declare private variables
 
