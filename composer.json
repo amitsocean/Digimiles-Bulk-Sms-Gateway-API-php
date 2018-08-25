@@ -8,11 +8,12 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "digimiles-sms-gateway-api-php/digimiles-sms-gateway-api": "dev-master"
     },
     "autoload": {
         "psr-0": {
-            "DigiMilesSmsGatewayAPI": "src/"
+            "DigimilesSmsGatewayAPI": "src/"
         }
     }
 }
