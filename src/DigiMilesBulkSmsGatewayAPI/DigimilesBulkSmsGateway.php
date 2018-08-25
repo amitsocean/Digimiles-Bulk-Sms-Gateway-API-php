@@ -11,10 +11,9 @@ class DigiMilesSmsGateway {
 
     private $username,$password,$message,$sender,$receiver,$url; //Declare private variables
 
-
     /**Setting variables**/
     public function setConfig($data){
-
+echo "string";exit();
         if(isset($data['username'],$data['password'],$data['receiver'],$data['message'],$data['sender'])){
 
             $this->username=$data['username'];              // Set username
